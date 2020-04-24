@@ -1,0 +1,17 @@
+to run Flask app from command line for Mac/Linux:
+>> export FLASK_APP=<file_name.py>
+>> flask run
+
+to run Flask app from command line for Windows:
+>> set FLASK_APP=<file_name.py>
+>> flask run
+
+-----------------------------------------------------------------------------------------------
+
+to run the Flask app without shutting down the server after making small changes for Mac/Linux
+>> export FLASK_DEBUG=1
+>> flask run
+
+to run Flask app from command line for Windows:
+>> set FLASK_DEBUG=<file_name.py>
+>> flask run
